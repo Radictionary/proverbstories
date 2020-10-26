@@ -1,0 +1,96 @@
+/* Ids */
+#first_box {
+  text-align: center;
+  padding-top: 4%;
+}
+
+#why {
+  padding: 4%;
+  margin-top: 6%;
+}
+
+#proverbs_sec {
+  text-align: left;
+}
+
+#carousel {
+  text-align: center;
+  width: 99%;
+  margin-top: 5%;
+}
+
+
+/* Css Classes */
+.body {
+  background-color: #cdc9c3;
+  text-align: center;
+}
+
+.carousel-item {
+  width: 25%;
+}
+
+.center {
+  text-align: center;
+}
+
+.proverbs_sec2 {
+  padding: 0 3%;
+}
+
+.imgsizing {
+  width: 20%;
+}
+
+.as {
+  width: 20%;
+}
+
+.sh_picture {
+  border-radius: 50%;
+  width: 20%;
+  height: 15%;
+  padding-top: 3%;
+}
+
+.top-box {
+  background-color: black;
+  height: 30%;
+  margin-bottom: -2%;
+}
+.bottom-box {
+  background-color: white;
+  height: 30%;
+}
+
+.p1 {
+  padding-top: 5%;
+}
+
+.nav-item {
+  margin: 1%;
+}
+
+.ferinfo {
+  padding: 0 25%;
+  /* position: relative;
+  bottom: 14rem;
+  right: 16rem;
+  padding: 0 40%; */
+}
+
+.car {
+  position: relative;
+  left: 15%;
+}
+
+.car2 {
+  position: relative;
+  right: 150%;
+}
+
+
+
+/* Medias */
+
+@jquery
