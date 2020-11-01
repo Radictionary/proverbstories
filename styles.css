@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-#proverbs_sec {
+#proverbsection {
   text-align: right;
 }
 
@@ -29,6 +29,11 @@
 .body {
   background-color: #cdc9c3;
   /* text-align: center; */
+}
+
+.test2 {
+  text-align: center;
+  padding-top: 3%;
 }
 
 .carousel-item {
