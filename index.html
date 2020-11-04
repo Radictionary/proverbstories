@@ -7,6 +7,7 @@
   <link rel="shortcut icon" href="ficon.ico">
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -16,10 +17,6 @@
 <body class="body">
 
   <nav class="navbar navbar-expand-lg navbar-light navbar-right" style="background-color: #555555;">
-    <!-- <img class="navbar-brand" src="logo.jpg" alt=""> -->
-    <!-- <a class="navbar-brand" href="#">
-      <img src="seclogo.png" width="80" height="80" alt="" loading="lazy">
-    </a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,12 +34,18 @@
         <li class="nav-item mbtn">
           <a class="btn navlink btn-outline-light" href="project.html">Projects</a>
         </li>
-        <li class="nav-item mbtn">
-          <a class="btn navlink btn-outline-light" href="Shahnameh.html">Shahnameh</a>
-        </li>
         <!-- <li class="nav-item mbtn">
-          <a class="btn navlink btn-outline-light" href="ps.html">Proverbs</a>
+          <a class="btn navlink btn-outline-light" href="Shahnameh.html">Shahnameh</a>
         </li> -->
+        <li class="nav-item mbtn">
+          <div class="dropdown">
+            <button class="btn navlink btn-outline-light dropbtn">Shahnameh</button>
+            <div class="dropdown-content">
+              <a href="shahnameh.html">Story 1</a>
+              <a href="shahnameh2.html">Story 2</a>
+            </div>
+          </div>
+        </li>
         <li class="nav-item mbtn">
           <div class="dropdown">
             <button class="btn navlink btn-outline-light dropbtn">Proverbs</button>
