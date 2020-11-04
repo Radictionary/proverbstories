@@ -115,7 +115,6 @@
 
 .ctgvid {
   background-color: #000;
-  width: 30%;
 }
 
 /* Dropdown Button */
@@ -166,4 +165,9 @@
 
 /* Medias */
 
-@jquery
+ @media (min-width: 700px) {
+   .ctgvid {
+     background-color: #000;
+     width: 30%;
+   }
+}
