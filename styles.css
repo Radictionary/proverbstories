@@ -32,7 +32,18 @@
 /* Css Classes */
 .body {
   background-color: #cdc9c3;
-  /* text-align: center; */
+}
+
+.yee {
+  width: 500%;
+}
+
+.hw4 {
+  padding: 1.5%;
+}
+
+.hw4d {
+  padding: 0 2%;
 }
 
 .test2 {
