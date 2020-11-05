@@ -170,6 +170,8 @@
 
 /* Medias */
 
- /* @media (min-width: 700px) {
-
-} */
+@media (max-width: 700px) {
+  .yes {
+    width: 40%;
+  }
+}
