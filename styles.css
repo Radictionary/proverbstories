@@ -1,4 +1,4 @@
-/* Ids */
+                    /* Ids */
 #first_box {
   text-align: center;
   padding-top: 4%;
@@ -8,6 +8,12 @@
   padding: 4%;
   margin-top: 6%;
   text-align: center;
+}
+
+#footer-index {
+  background-color: #cbbcb1;
+  text-align: center;
+  padding: 2%;
 }
 
 #proverbsection {
@@ -29,7 +35,14 @@
 }
 
 
-/* Css Classes */
+                    /* Peusdo Classes */
+
+.Radin:hover {
+  color: brown;
+  text-decoration: none;
+}
+
+                    /* CSS Classes */
 .body {
   background-color: #cdc9c3;
 }
@@ -49,6 +62,10 @@
 .test2 {
   text-align: center;
   padding-top: 3%;
+}
+
+.Radin {
+  color: black;
 }
 
 .brown {
@@ -116,6 +133,10 @@
   padding: 0 40%; */
 }
 
+.fas {
+  font-size: 120%;
+}
+
 .car {
   position: relative;
   left: 15%;
@@ -168,10 +189,10 @@
 
 
 
-/* Medias */
+                    /* Medias */
 
 @media (max-width: 700px) {
   .yes {
-    width: 40%;
+    width: 10%;
   }
 }
