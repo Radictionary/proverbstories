@@ -14,7 +14,6 @@
   background-color: #cbbcb1;
   text-align: center;
   padding: 2%;
-  margin-bottom: -50%;
 }
 
 #proverbsection {
@@ -55,6 +54,11 @@
 .hw4 {
   padding: 1.5%;
 }
+
+/* .border {
+  border: dotted;
+  border-width: 300px;
+} */
 
 .hw4d {
   padding: 0 2%;
@@ -115,6 +119,7 @@
   background-color: white;
   height: 30%;
   text-align: center;
+  padding: 0.8%;
 }
 
 .p1 {
