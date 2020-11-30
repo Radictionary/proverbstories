@@ -91,6 +91,13 @@
   height: 192px;
 }
 
+.phr {
+  width: 30%;
+  border-width: thick;
+  color: lime;
+  shape-outside: circle();
+}
+
 .center {
   text-align: center;
 }
@@ -112,6 +119,10 @@
   width: 20%;
   height: 15%;
   padding-top: 3%;
+}
+
+.projectvideo {
+  width: 30%;
 }
 
 .top-box {
