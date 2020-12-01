@@ -193,13 +193,16 @@
     0 20px 20px rgba(0, 0, 0, .15);
 }
 
-.glowp2 {
-  
+.padding2p {
+  padding: 2%;
+}
+
+.paddingforsongsinfo {
+  padding: 1.5% 2.3%;
 }
 
 .sz {
   padding: 3% 5% 4% 3.5%;
-  text-align: right;
 }
 
 .ctgvid {
