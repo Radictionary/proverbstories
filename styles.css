@@ -55,13 +55,22 @@
   padding: 1.5%;
 }
 
-/* .border {
-  border: dotted;
-  border-width: 300px;
-} */
-
 .hw4d {
   padding: 0 2%;
+}
+
+.br {
+  padding: 2%;
+}
+
+.test6 {
+  width: 4%;
+  border-style: dotted;
+  color: black;
+  border-width: 10px;
+  border-bottom: none;
+  position: relative;
+  right: 40%;
 }
 
 .big {
