@@ -39,7 +39,6 @@
 
 .Radin:hover {
   color: brown;
-  text-decoration: none;
 }
 
                     /* CSS Classes */
@@ -187,7 +186,7 @@
   right: 150%;
 }
 
-.glowp1 {
+.effectp1 {
   text-shadow: 0 1px 0 #ccc,
     0 2px 0 #c9c9c9,
     0 3px 0 #bbb,
@@ -200,6 +199,10 @@
     0 5px 10px rgba(0, 0, 0, .25),
     0 10px 10px rgba(0, 0, 0, .2),
     0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.effectp2 {
+  font-family: 'Lobster', cursive;
 }
 
 .padding2p {
