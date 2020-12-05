@@ -306,10 +306,10 @@
 }
 
 .rw-words-1 span{
-	animation: rotateWordsFirst 14s linear infinite 0s;
+	animation: rotateWordsFirst 18s linear infinite 0s;
 }
 .rw-words-2 span{
-	animation: rotateWordsSecond 14s linear infinite 0s;
+	animation: rotateWordsSecond 18s linear infinite 0s;
 }
 .rw-words span:nth-child(2) {
 	animation-delay: 3s;
