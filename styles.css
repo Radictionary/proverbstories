@@ -143,6 +143,21 @@
   width: 30%;
 }
 
+.picturetitlecar {
+  text-align: center;
+  padding-top: 4%;
+  margin-bottom: -3%;
+}
+
+.divider {
+  border: dotted #EAF6F6 0.9rem;
+  border-bottom: none;
+  width: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
 .top-box {
   background-color: black;
   height: 30%;
