@@ -34,6 +34,14 @@
   padding: 1% 2.5% 2% 3.5%;
 }
 
+#importantpeople {
+
+}
+
+#CyrusTheGreat {
+
+}
+
 
                     /* Peusdo Classes */
 
@@ -191,6 +199,10 @@
   font-size: 120%;
 }
 
+.ip {
+  padding: 0 0.3rem;
+}
+
 .car {
   position: relative;
   left: 15%;
@@ -236,6 +248,19 @@
   background-color: #000;
 }
 
+.p-padding {
+  padding: 0.1rem 4rem;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.credits {
+  font-weight: 500;
+}
+
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -277,10 +302,10 @@
 }
 
 .rw-wrapper{
-	width: 50%;
+	/* width: 50%; */
 	position: relative;
-  left: 13;
-	margin: 1.8% auto 0 auto;
+  left: 20rem;
+	margin: 1.8% auto auto auto;
 	font-family: 'Bree Serif';
 	padding: 10px;
 }
@@ -351,9 +376,15 @@
 
                     /* Medias */
 
-@media (max-width: 700px) {
+@media (max-device-width: 700px) {
   .yes {
     width: 10%;
+  }
+}
+
+@media (min-device-width: 1500px) {
+  .rw-wrapper {
+    left: 40rem;
   }
 }
 
