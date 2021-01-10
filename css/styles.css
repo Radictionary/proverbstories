@@ -298,7 +298,7 @@
 .dropdown-content a:hover {
   background-color: #ddd;
   text-decoration: none;
-  color: purple;
+  color: #cc7351;
 }
 
 .dropdown:hover .dropdown-content {
