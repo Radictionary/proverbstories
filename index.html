@@ -18,7 +18,7 @@
 </head>
 
 <body class="body">
-
+  <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light navbar-right" style="background-color: #555555;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -35,12 +35,18 @@
           <a class="btn navlink btn-outline-light" href="project.html">Projects</a>
         </li>
         <li class="nav-item mbtn">
-          <a class="btn navlink btn-outline-light" href="ip.html">Important<span class="ip">People</span></a>
+          <div class="dropdown">
+            <button class="btn navlink btn-outline-light dropbtn">Important<span class="ip">People</span></button>
+            <div class="dropdown-content radius">
+              <a href="ip.html">Cyrus the Great</a>
+              <a href="ip2.html">Avicenna</a>
+            </div>
+          </div>
         </li>
         <li class="nav-item mbtn">
           <div class="dropdown">
             <button class="btn navlink btn-outline-light dropbtn">Shahnameh</button>
-            <div class="dropdown-content">
+            <div class="dropdown-content radius">
               <a href="shahnameh.html">Story 1</a>
               <a href="shahnameh2.html">Story 2</a>
               <a href="shahnameh3.html">Story 3</a>
@@ -52,19 +58,20 @@
         <li class="nav-item mbtn">
           <div class="dropdown">
             <button class="btn navlink btn-outline-light dropbtn">Proverbs</button>
-            <div class="dropdown-content">
+            <div class="dropdown-content radius">
               <a href="ps1.html">Proverb 1</a>
               <a href="ps2.html">Proverb 2</a>
               <a href="ps3.html">Proverb 3</a>
               <a href="ps4.html">Proverb 4</a>
               <a href="ps5.html">Proverb 5</a>
+              <a href="ps6.html">Proverb 6</a>
             </div>
           </div>
         </li>
         <li class="nav-item mbtn">
           <div class="dropdown">
             <button class="btn navlink btn-outline-light dropbtn">Songs</button>
-            <div class="dropdown-content">
+            <div class="dropdown-content radius">
               <a href="song.html">Song 1</a>
               <a href="song2.html">Song 2</a>
             </div>
@@ -77,9 +84,6 @@
   <section id="first_box">
     <h1 class="effectp1 effectp2">Welcome to Persian Literature and Poetry Class!</h1>
     <img class="sh_picture" style="border-radius: 50%; : 40px;" src="IMG_3709.JPG" alt="Shahnameh Picture">
-    <!-- <p class="ferinfo">This picture is Ferdowsi. Ferdowsi spent 32 years of his life making the epic stories we know today as Shahnameh. He lived from 940-1020.</p> -->
-    <!-- <p style="padding: 3%;">Shahnameh is a epic tale/story made by Ferdowsi. This epic tale took 32 years and has 60,000 versuses. One of the reasons it was made was so the persian language would not be forgotten and destroyed from it's enemies.
-      Shahnameh contains information about Persian kings, culture, litirture, history, and more.</p> -->
   </section>
 
   <section id="why">
@@ -97,7 +101,5 @@
   <section id="footer-index">
     <p>Website created by RADIN KHOSRAVIANI<span> </span><a class="Radin" href="mailto:radin.msft@gmail.com"><i class="fas fa-envelope-square"></i></a></p>
   </section>
-
 </body>
-
 </html>

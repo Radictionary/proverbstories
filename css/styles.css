@@ -157,6 +157,13 @@
   margin-bottom: -3%;
 }
 
+.radius {
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+}
+
 .divider {
   border: dotted #EAF6F6 0.9rem;
   border-bottom: none;
@@ -235,7 +242,7 @@
   font-family: 'Lobster', cursive;
 }
 
-.padding2p {
+.padding {
   padding: 2%;
 }
 
@@ -284,8 +291,6 @@
   min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-
-
 }
 
 .dropdown-content a {
