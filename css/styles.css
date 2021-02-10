@@ -16,10 +16,6 @@
   padding: 2%;
 }
 
-#proverbsection {
-  text-align: right;
-}
-
 #carousel {
   text-align: center;
   width: 99%;
@@ -136,6 +132,10 @@
   width: 20%;
 }
 
+.left {
+  text-align: left;
+}
+
 .as {
   width: 20%;
 }
@@ -165,7 +165,7 @@
 }
 
 .ipcredits {
-  
+
 }
 
 .divider {
