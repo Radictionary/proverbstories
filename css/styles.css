@@ -243,8 +243,25 @@
   padding: 3% 5% 4% 3.5%;
 }
 
+.bgimage {
+  background-image: url('simorg.jpg')
+}
+
 .ctgvid {
   background-color: #000;
+}
+
+.blur {
+  filter: blur(9px);
+}
+
+.blurtest {
+  background-color: #000;
+  opacity: 50%;
+}
+
+.bold2 {
+  font-weight: bolder;
 }
 
 .p-padding {
