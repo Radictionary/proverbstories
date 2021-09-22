@@ -175,6 +175,10 @@
   text-align: center;
 }
 
+.audiop3positioning {
+  padding-left: 1rem;
+}
+
 .nav-item {
   margin: 0.8%;
 }
@@ -276,13 +280,6 @@
 .credits {
   font-weight: 500;
   font-size: 1.1rem;
-}
-
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  border: none;
 }
 
 .dropdown {
