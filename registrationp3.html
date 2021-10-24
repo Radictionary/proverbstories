@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Farsi Class</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="free Farsi class ages 8-18">
+  <link rel="shortcut icon" href="photoshopedlogo808.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3ab9722e6f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body class="body" style="background-color: #cefff1;">
+
+  <nav class="navbar navbar-expand-lg navbar-light navbar-right" style="background-color: #71c9ce;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="wrs" class="reg navbar-brand wrs" href="registrationp1.html">Fall Registration</a>
+    <div class="collapse navbar-collapse navbar-left green vn" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active mbtn">
+          <a class="btn navlink btn-outline-primary" href="index.html">Home</a>
+        </li>
+        <li class="nav-item mbtn">
+          <a class="btn navlink btn-outline-primary" href="class_pictures.html">Class Pictures</a>
+        </li>
+        <li class="nav-item mbtn">
+          <div class="dropdown">
+            <button class="btn navlink btn-outline-primary">2020-2021</button>
+            <div class="dropdown-content">
+              <a class="hvr-shrink" href="2020to2021_projects.html">Projects</a>
+              <a class="hvr-shrink" href="2020to2021_songs.html">Songs</a>
+              <a class="hvr-shrink" href="2020to2021_1st_anniv.html">1st year Anniversary</a>
+              <a class="hvr-shrink" href="2020to2021_reviews.html">Reviews</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <br>
+
+  <h1 class="reg_header">Fall Registration</h1>
+  <h3>Step <span style="color: cornflowerblue;">3</span>/4</h3>
+  <br>
+  <h5>Go to the bottom of the page to Verify once you have submited the registration form.</h5>
+  <br>
+  <iframe class="regformmf" src="https://docs.google.com/forms/d/e/1FAIpQLSdJ7CH-AYdFRY-KBKuU8XvF2qn288ua7N9cpSIPd11y2laXGw/viewform?embedded=true" width="640" height="1719" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  <div class="anotherresponse"></div>
+  <br>  
+ <br>
+ <!-- <p id='demo' style='display: none'><a href="registrationp4.html" id="demo" class="mycnuButton">Continue</a></p>      -->
+ <button type='button' class="verifybutton" onclick="toggleText()">Verify</button>
+  <br>
+  <br>
+  <h5 id="msg-succes">You may continue to pay after you <span style="color: orange">Submit</span> the form and <span style="color: red">Verify</span></h5>
+  <br>
+  <br>
+  <p id='demo' style='display: none; margin: 0 auto;'><a href="registrationp4.html" class="mycnuButton verifycontinue">Continue</a></p>
+  <br>
+  <a href="registrationp2.html" style="margin-right: 1rem;" class="mycnuButton">Back</a> 
+  <script>
+    function toggleText() {
+      var text = document.getElementById("demo");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+  </script>
+  <br>
+  <br>
+</html>
