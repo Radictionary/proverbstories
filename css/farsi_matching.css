@@ -9,8 +9,8 @@
     src: url("https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Fonts/Lunacy.woff") format("woff"), url("https://raw.githubusercontent.com/WebDevSimplified/Mix-Or-Match/master/Assets/Fonts/Lunacy.woff2") format("woff2")
   }
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-  
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');  
 /* Selectors */
   * {
     box-sizing: border-box;
@@ -23,15 +23,15 @@
 
   body {
     margin: 0;
-    /* background: radial-gradient(#9D5900, #3D2200); */
-    background-color: #cefff1;
+    background-image: linear-gradient(#cdc9c3, rgb(102, 75, 75));
+    /* background-color: rgb(205, 201, 195); */
   
   }
 
   /* CSS classes */
 
   .page-title {
-    color: #193498;
+    color: rgba(197, 65, 65, 0.836);
     /* font-family: Creepy, serif; */
     font-family:fantasy;
     font-weight: normal;
@@ -40,7 +40,7 @@
   }
 
   .body_farsi_matching {
-      background-color: #cefff1;;
+    background-color: #cdc9c3;
   }
   
   .game-info-container {
@@ -50,8 +50,8 @@
   }
   
   .game-info {
-    font-family: 'Indie Flower', cursive;;
-    color: #FFBB89;
+    font-family: 'Estonia', cursive;
+    color: #552b29;
     font-size: 4em;
     position: relative;
   }
@@ -97,6 +97,40 @@
   .card.visible .card-front {
     transform: rotateY(0)
   }
+
+.content_img{
+  position: relative;
+  /* width: 300px;
+  height: 10rem; */
+  float: left;
+  margin-right: 10px;
+ }
+ 
+ .content_img div{
+  position: absolute;
+  bottom: 2.1rem;
+  right: 9rem;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ .content_img:hover{
+  cursor: pointer;
+ }
+ 
+ .content_img:hover div{
+  width: 150px;
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7; 
+ }
   
   .card.matched .card-value {
     animation: dance 1s linear infinite 500ms;
@@ -112,9 +146,9 @@
     justify-content: center;
     align-items: center;
     z-index: 100;
-    color: #1597E5;
+    color: rgb(172, 77, 77);
     /* font-family: Creepy, serif; */
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Estonia', cursive;
     padding: 6rem;
   }
   
@@ -152,8 +186,9 @@
   }
   
   .card-back {
-    background-color: black;
-    border-color: #FF6D00;
+    background-color: #cbbcb1;
+    border-color: blanchedalmond;
+    border-width: 0.5rem;
   }
   
   .card-front {

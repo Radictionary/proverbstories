@@ -171,12 +171,13 @@
 }
 
 .p1 {
-  padding-top: 5%;
-  text-align: center;
+  padding-top: 1%;
+  text-align: left;
 }
 
 .audiop3positioning {
   padding-left: 1rem;
+ position: fixed;
 }
 
 .nav-item {
