@@ -11,14 +11,18 @@
   <meta name="description" content="Learn about Shahnameh, the epic true tale made by Ferdowsi, Cyrus the great, and more! Website created by Radin Khosraviani">
   <script src="https://kit.fontawesome.com/3ab9722e6f.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@animxyz/core">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body class="body">
+
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light navbar-right" style="background-color: #555555;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,9 +35,6 @@
         </li>
         <li class="nav-item mbtn">
           <a class="btn navlink btn-outline-light" href="pictures.html">Pictures</a>
-        </li>
-        <li class="nav-item mbtn">
-          <a class="btn navlink btn-outline-light" href="project.html">Projects</a>
         </li>
         <li class="nav-item mbtn">
           <div class="dropdown">
@@ -49,6 +50,7 @@
           <div class="dropdown">
             <button class="btn navlink btn-outline-light dropbtn">Shahnameh</button>
             <div class="dropdown-content">
+              <a class="hvr-grow hvr-shutter-out-horizontal" href="shahnameh_matching.html">Matching Game</a>
               <a class="hvr-grow hvr-shutter-out-horizontal" href="shahnameh.html">Story 1</a>
               <a class="hvr-grow hvr-shutter-out-horizontal" href="shahnameh2.html">Story 2</a>
               <a class="hvr-grow hvr-shutter-out-horizontal" href="shahnameh3.html">Story 3</a>
@@ -78,7 +80,6 @@
               <a class="hvr-grow hvr-shutter-out-horizontal" href="ps12.html">Proverb 12</a>
               <a class="hvr-grow hvr-shutter-out-horizontal" href="ps13.html">Proverb 13</a>
               <a class="hvr-grow hvr-shutter-out-horizontal" href="ps14.html">Proverb 14</a>
-              <a class="hvr-grow hvr-shutter-out-horizontal" href="ps14.html">Proverb 15</a>
             </div>
           </div>
         </li>
@@ -96,11 +97,37 @@
     </div>
   </nav>
 
-  <section id="first_box">
-    <h1 class="effectp1 effectp2">Welcome to Persian Literature and Poetry Class!</h1>
-    <img class="sh_picture" style="border-radius: 50%;" src="img_car\other\ferdowsi.JPG" alt="Shahnameh Picture">
-    <h6 style="padding-top: 0.7rem;">Above is a picture of Ferdowsi, the creator of Shahnameh. He is also sometimes refered to as the Father of our language.</h5>
-  </section>
+  <main>
+    <section class="item_group first_box" id="first_box" xyz="fade up rotate-right duration-10 ease-out-back stagger">
+      <h1 class="xyz-in effectp1 effectp2">Welcome to Persian Literature and Poetry Class!</h1>
+      <img class="xyz-in sh_picture" style="border-radius: 50%;" src="img_car\other\ferdowsi.JPG" alt="Shahnameh Picture">
+      <h6 style="padding-top: 0.7rem;" class="square xyz-out" xyz="duration-20 ease-in-out-back flip-up-100% iterate">Above is a picture of Ferdowsi, the creator of Shahnameh. He is also sometimes refered to as the father of our language.</h5>
+    </section>
+
+
+    <!-- <section id="why">
+      <div class="border">
+        <div class="top-box border">
+          <h1 style="color: #686d76">What's New?</h1>
+          <h4 style="color: #686d76;">Updated May 2022</h4>
+        </div>
+        <br>
+        <div style="text-align: left;" class="bottom-box border">
+  
+          <h4><a href="ps14.html">Proverb 14</a></h3>
+          <p class="p1">Proverb 14 is now out! Go read the proverb and it's story behind it</p>
+          <br>
+          <br>
+          <h4><a href="shahnameh_matching.html">Shahnameh Matching Game</a></h3>
+          <p class="p1">Recently added to the website is a Shanameh Matching Game! In this game, you try to match same cards together. This requires memory and knowledge. Happy Matching!</p>
+          <br>
+          <br>
+          <h4>Proverb Matching Game</h3>
+          <p class="p1">👀</p>
+        </div>
+      </div>
+    </section> -->
+  </main>
 
   <!-- <section id="why">
     <div class="border">
@@ -114,27 +141,6 @@
     </div>
   </section> -->
 
-  <section id="why">
-    <div class="border">
-      <div class="top-box border">
-        <h1 style="color: #686d76">What's New?</h1>
-      </div>
-      <br>
-      <div style="text-align: left;" class="bottom-box border">
-
-        <h4><a href="ps14.html">Proverb 14</a></h3>
-        <p class="p1">Proverb 14 is now out! Go read the proverb and it's story behind it</p>
-        <br>
-        <br>
-        <h4><a href="shahnameh_matching.html">Shahnameh Matching Game</a></h3>
-        <p class="p1">Recently added to the website is a Shanameh Matching Game! In this game, you try to match same cards together. This requires memory and knoledge. Happy Matching!</p>
-        <br>
-        <br>
-        <h4>Proverb Matching Game</h3>
-        <p class="p1">👀</p>
-      </div>
-    </div>
-  </section>
 
   <section id="footer-index">
     <p>Website created & maintained by RADIN KHOSRAVIANI<span> </span><a class="Radin" href="mailto:radin.msft@gmail.com"><i class="fas fa-envelope-square"></i></a></p>
